@@ -43,9 +43,10 @@
     ==注意：如果使用babel-loader时，请确保eslint-loader应在其之前执行，既代码上顺序放在babel-loader后面，或者强行使用enforce: "pre"使它预先执行==
     。至此，最基本使用方式完毕
 3. eslintrc文件配置详解，详细参考： [传送门](https://www.jianshu.com/p/a4966ddf9b0c)
-4. 如果懒得配置规则，可以直接使用eslint-config-standard包，这个也是vue-cli脚手架在使用的elsinr 配置。
+4. 如果懒得配置规则，可以直接使用eslint-config-standard包，这个也是vue-cli脚手架在使用的eslint 配置。
 5. 安装eslint-config-standard，它同时依赖eslint-plugin-promise插件、eslint-plugin-standard插件、eslint-plugin-import插件、eslint-plugin-node插件
 
+        npm install eslint-config-standard --save-dev
         npm install eslint-plugin-promise --save-dev
         npm install eslint-plugin-standard --save-dev
         npm install eslint-plugin-import --save-dev
